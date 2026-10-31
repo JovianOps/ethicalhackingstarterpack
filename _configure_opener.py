@@ -8,7 +8,7 @@ Target path: %APPDATA%\Angry IP Scanner\openers.xml
 """
 import os, sys, xml.etree.ElementTree as ET
 
-EXE = r"D:\Wireshark\Wireshark.exe"
+EXE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "external", "Wireshark", "Wireshark.exe")
 FILTER = "host ${fetcher.ip}"
 
 def opener_path():
