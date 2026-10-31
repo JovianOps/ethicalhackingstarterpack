@@ -1,6 +1,7 @@
-# ReconSuite Portable
+# ReconSuite — Ethical Hacking Starter Pack
 
 Portable network toolkit bundle — launches **Wireshark** + **Angry IP Scanner** side-by-side.
+All tools bundled in `external/`, no install required.
 
 ## Layout
 ```
